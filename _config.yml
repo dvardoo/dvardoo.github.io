@@ -51,6 +51,36 @@ timezone: SE
 
 include:
   - _pages
+
+
+
+author:
+  name   : "dvardoo"
+  avatar : ""
+  bio    : "Public blogposts containing homelabbing, code, projects and security."
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://dvardo.github.io"
+    #- label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
+    #  url: ""
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/dvardoo"
+
+footer:
+  links:
+    #- label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
+    #  url: ""
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/dvardoo"
+    #- label: "Instagram"
+    #  icon: "fab fa-fw fa-instagram"
+
+
  
 # Exclude from processing.
 # The following items will not be processed, by default.
