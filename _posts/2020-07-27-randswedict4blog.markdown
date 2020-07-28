@@ -21,8 +21,8 @@ This is all what led up to writing "randswedict4.py", wich is just a simple pass
 
 ## The scripts
 
-###randswedict4.py
-~~
+### randswedict4.py
+~~~
 import random
 import string
 
@@ -53,14 +53,13 @@ def passwd():
         passwd()
         
 passwd()
-~~
+~~~
 {: .language-python} 
 
-###randdict4.py
-~~
+### randdict4.py
+~~~
 import random
 import string
-# -*- coding: utf-8 -*-
 
 #Function for getting a random passphrase
 #Choses 4 random words from wordlist and concatenates as passphrase.
@@ -88,5 +87,5 @@ def passwd():
         print('Short random passphrase, run again')
 
 passwd()
-~~
+~~~
 {: .language-python}
