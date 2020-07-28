@@ -4,10 +4,11 @@ date:   2020-07-27 11:25:35
 categories: security, python
 ---
 
-# Intro to password policies
+# Intro
 One thing that really riles me up is the how companys really likes to implement bad password policies, policies known as basic8, comp8 and so on.
 The password policy basic8 just demands that the password is 8 characters of length, while comp8 demands 8 characters including uppercase, lowercase, a symbol and a digit.
- 
+
+## Problems with password policies
 The problem with these types of policies is the fact that users have a hard time remembering these types of password containing different groups of characters, and thus tends to create easily guessed password like "Summ3r!!" to actually remember the passwords. 
 Another problem with these types of password policies is that sys-admins tends to create default passwords like "Summer2020!" for employees, who then changes it to "Summer2021!" when they are forced to change passsword. By enforcing password changes on a regular intervall employees tends to stick to these systems for remembering passwords, thus solidifying the issue. 
 
@@ -96,5 +97,5 @@ passwd()
 
 ### Results after exec
 
-![randswedict4](https://dvardo.github.io/images/randswewdict4/randswedict4.png)
+![randswedict4](https://dvardo.github.io/images/randswedict4/randswedict4.png)
 {: .full}
