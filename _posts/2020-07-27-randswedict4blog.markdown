@@ -101,5 +101,5 @@ passwd()
 
 ### Results after exec
 
-![randswedict4](https://github.com/dvardoo/dvardoo.github.io/images/randswedict4/randswedict4.PNG)
+![randswedict4](https://dvardoo.github.io/images/randswedict4/randswedict4.png)
 {: .full}
