@@ -9,7 +9,7 @@ tags:
 ---
 
 # Intro
-One thing that really riles me up is the how companys really likes to implement bad password policies, policies known as basic8, comp8 and so on.
+One thing that really riles me up is how companys really likes to implement bad password policies, policies known as basic8, comp8 and so on.
 The password policy basic8 just demands that the password is 8 characters of length, while comp8 demands 8 characters including uppercase, lowercase, a symbol and a digit.
 
 ## Problems with password policies
@@ -101,5 +101,5 @@ passwd()
 
 ### Results after exec
 
-![randswedict4](https://github.com/dvardoo/dvardoo.github.io/blob/master/images/randswedict4/randswedict4.png)
+![randswedict4](https://github.com/dvardoo/dvardoo.github.io/images/randswedict4/randswedict4.PNG)
 {: .full}
