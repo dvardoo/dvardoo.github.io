@@ -2,7 +2,7 @@
 title:  "Bad password policies"
 date:   2020-07-27 11:25:35 
 categories: 
-  - blog
+  - Blog
 tags:
   - Security
   - Python
