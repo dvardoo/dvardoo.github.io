@@ -11,7 +11,8 @@ tags:
 # Intro to pwnagotchi
 This summer I worked at a ISP and was talking about different Raspberry Pi projects with a collegue who introduced me to this amazing project called [pwnagotchi](https://pwnagotchi.ai/). The project is a small tamagotchi based on a Rasperry Pi Zero W to capture handshakes between a router and wireless clients connected to it. By capturing these handshakes on can then crack the password for the Wi-Fi. Later that afternoon after reading up on it we both ordered the parts needed, as we both only had the Pi Zero itself and really wanted a screen for the cute ASCII face. 
 
-![pi2.jpeg](images/pwnagotcho/pi2.jpeg)
+![https://dvardoo.github.io/pi2.jpeg](images/pwnagotcho/pi2.jpeg)
+{: .full}
 
 ## Thoughts on project
 The project is a great way to learn about the basics of hacking Wi-Fi and cracking passwords while also being forced to take som walks for finding new SSID's. 
@@ -52,7 +53,8 @@ I actually learned quite a bit about hacking Wi-Fi and cracking passwords with s
 * Start tethering from the smartphone and wait for the pwnagotchi to connect.
 * Use a browser to navigate to the webUI.
 
-![pi3.jpg](images/pwnagotchi/pi3.jpg)
+![pi3.jpg](https://dvardoo.github.io/images/pwnagotchi/pi3.jpg)
+{: .full}
 
 4. For easier configuration instead of a shaky SSH connection one can make changes via the webUI. 
 * Connect to the IP address and port of the pwnagotchi.
@@ -67,5 +69,5 @@ I actually learned quite a bit about hacking Wi-Fi and cracking passwords with s
 
 6. **Take some walks and feed that poor soul some handshakes.**
 
-![pi1.jpeg](images/pi1)
-
+![pi1.jpeg](https://dvardoo.github.io/images/pi1)
+{: .full}
