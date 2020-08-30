@@ -63,7 +63,7 @@ I actually learned quite a bit about hacking Wi-Fi and cracking passwords with s
 	* Enable webconf with the slider.
 	* Reboot the pwnagotchi.
 
-5. I had to wait for the parts for assembly as I just had the Pi Zero initially and runned it headless for the first weeks. And these steps are just for looks and pretty self explanatory.
+5. I had to wait for the parts to start assembly as I just had the Pi Zero initially and ran it headless for the first weeks. And these steps are just for looks and pretty self explanatory.
 * Connect the inky PHAT to the GPIO pins.
 * Assemble the case (which is harder than it looks if you are eager and careless). 
 
