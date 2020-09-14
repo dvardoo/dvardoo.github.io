@@ -25,8 +25,8 @@ During the challengers I befriended both `netcat` and `git` which I haven't used
 The only downside about the challenges where that at times the hints are to obvious and to extensive, but then again the challenges are aimed at total beginners,
 
 ## Results from the run
-![All the collected flags](https://dvardoo.github.io/images/bandit/flags.png "All the collected flags") 
+![All the collected flags](https://dvardoo.github.io/images/bandit/flags.PNG "All the collected flags") 
 {: .full} 
 
-![Message from the final level](https://dvardoo.github.io/images/bandit/final-bandit.png "Message from the final level")
+![Message from the final level](https://dvardoo.github.io/images/bandit/final-bandit.PNG "Message from the final level")
 {: .full}
