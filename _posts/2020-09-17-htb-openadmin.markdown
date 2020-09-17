@@ -210,7 +210,7 @@ $ ssh jimmy@10.10.10.171
 jimmy@10.10.10.171's password: n1nj4W4rri0R!
 ~~~
 
-Success! But a quick look in jimmys home directory does not give us a flag. So problably going to need to move lateraly over to the user joanna. 
+Success! But a quick look in jimmys home directory does not give us a flag. So probably going to need to move lateraly to the user joanna. 
 
 A local recon with:
 ~~~
