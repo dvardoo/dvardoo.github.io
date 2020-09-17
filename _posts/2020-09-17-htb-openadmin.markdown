@@ -8,14 +8,15 @@ tags:
   - CTF
 ---
 
-![Logo for OpenAdmin](https://dvardoo.github.io/images/openadmin/openadmin.jpg "Logo for OpenAdmin")
-{: .full}
-
 
 # Intro & tldr
 The machine OpenAdmin from hacktebox.eu is a Linux-based box with rated with easy as a difficulty. In order to finish the box one must exploit a **RCE** in **OpenNetAdmin** *18.1.1* to get the initial foothold[^1]. Then after some local recon we find a password for one user, where we after some more recon can find a private key for the next user that we need to crack with ssh2john[^2]. This gives us the flag for user, but for root flag we need to abuse sudo privileges of the user with nano or get a root shell by a similar axploit[^3].
 
 This was maybe the second or third box I ever hacked and I was not really good at taking notes or printscreens to document the process, to make up for that I purchased VIP and redid the box from the beginning. But I learned a great deal on both runs at the box and especially when writing this post!
+
+![Logo for OpenAdmin](https://dvardoo.github.io/images/openadmin/openadmin.jpg "Logo for OpenAdmin")
+{: .full}
+
 
 * toc
 {:toc}
