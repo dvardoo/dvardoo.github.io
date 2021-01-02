@@ -8,4 +8,4 @@ tags:
 ---
 
 # Test title
-This is just a test after migratin to a new host. 
+This is just a test after migrating to a new host. 
